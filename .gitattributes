@@ -9,3 +9,5 @@
 # since updates to the generated code comments may not always be correct.
 assert/*.go  linguist-generated=false
 require/*.go linguist-generated=false
+
+.github/workflows/*.lock.yml linguist-generated=true merge=ours
